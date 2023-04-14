@@ -22,6 +22,20 @@ for (int Productoss : datoss){
  }
 System.out.println(suma);
 
+
+
+ DescuentoFijo Fijo = new DescuentoFijo();
+Fijo.setValor(10);
+
+DescuentoPorcentual porcentual = new DescuentoPorcentual();
+porcentual.setValor(0.5f);
+
+float ValorTotalCompra = suma;
+System.out.println("Descuento:" + Fijo.obtenerDescuento(ValorTotalCompra));
+System.out.println("Descuento porcentual:" + porcentual.obtenerDescuento(ValorTotalCompra));
+
+
+
  }
 }
 

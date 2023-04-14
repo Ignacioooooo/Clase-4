@@ -11,5 +11,6 @@ public class Main {
         System.out.println("Peso:" + PrimeraPersona.getPeso());
         System.out.println("Altura:" + PrimeraPersona.getAltura());
         System.out.println("Fecha de Nacimiento:" + PrimeraPersona.getFechadeNacimiento());
+
     }
 }
